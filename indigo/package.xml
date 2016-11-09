@@ -19,10 +19,10 @@
   <buildtool_depend version_gte="0.6.18">catkin</buildtool_depend>
   <build_depend version_gte="0.1.15">catkin_pip</build_depend>
 
-  <depend>backports_ssl_match_hostname</depend>     <!-- ubuntu deb available only from xenial 16.04. same version from yakkety 16.10. -->
-  <depend>python-singledispatch</depend>            <!-- trusty 14.04 version should be fine -->
-  <depend>certifi</depend>                          <!-- same version from xenial 16.04 -->
-  <depend version_gte="0.4">backports_abc</depend>  <!-- ubuntu deb available only from yakkety 16.10 -->
+  <depend>backports_ssl_match_hostname</depend>               <!-- ubuntu deb available only from xenial 16.04. same version from yakkety 16.10. -->
+  <!-- <depend>python-singledispatch</depend> -->             <!-- NOT needed for tornado 4.2.1 -->
+  <depend>certifi</depend>                                    <!-- same version from xenial 16.04 -->
+  <!-- <depend version_gte="0.4">backports_abc</depend> -->   <!-- NOT needed for tornado 4.2.1 -->
 
   <export>
     <rosdoc config="rosdoc.yaml" />
