@@ -1,0 +1,13 @@
+Source: ros-indigo-tornado
+Section: misc
+Priority: extra
+Maintainer: AlexV <asmodehn@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-concurrent.futures, python-mock, python-singledispatch, ros-indigo-backports-ssl-match-hostname, ros-indigo-catkin (>= 0.6.18), ros-indigo-catkin-pip (>= 0.1.15), ros-indigo-certifi
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-tornado
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-concurrent.futures, python-singledispatch, ros-indigo-backports-ssl-match-hostname, ros-indigo-certifi
+Description: Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.
+ http://www.tornadoweb.org/
