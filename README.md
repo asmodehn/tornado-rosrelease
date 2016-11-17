@@ -46,3 +46,8 @@ Versions of tools used:
 
 # tornado-rosrelease
 Releasing https://github.com/tornadoweb/tornado for ROS
+
+| Indigo | Jade | Kinetic |
+|:------:|:----:|:-------:|
+| [![Build Status](https://travis-ci.org/asmodehn/tornado-rosrelease.svg?branch=release%2Findigo%2Ftornado)](https://travis-ci.org/asmodehn/tornado-rosrelease) | [![Build Status](https://travis-ci.org/asmodehn/tornado-rosrelease.svg?branch=release%2Fjade%2Ftornado)](https://travis-ci.org/asmodehn/tornado-rosrelease) | [![Build Status](https://travis-ci.org/asmodehn/tornado-rosrelease.svg?branch=release%2Fkinetic%2Ftornado)](https://travis-ci.org/asmodehn/tornado-rosrelease) |
+
