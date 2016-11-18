@@ -51,3 +51,5 @@ Releasing https://github.com/tornadoweb/tornado for ROS
 |:------:|:----:|
 | [![Build Status](https://travis-ci.org/asmodehn/tornado-rosrelease.svg?branch=release%2Findigo%2Ftornado)](https://travis-ci.org/asmodehn/tornado-rosrelease) | [![Build Status](https://travis-ci.org/asmodehn/tornado-rosrelease.svg?branch=release%2Fjade%2Ftornado)](https://travis-ci.org/asmodehn/tornado-rosrelease) |
 
+Travis does not support ipv6, so tornado ipv6 tests will fail (there is no way to skip them).
+Reference : https://github.com/travis-ci/travis-ci/issues/4964
