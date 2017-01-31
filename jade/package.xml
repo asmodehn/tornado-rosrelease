@@ -25,6 +25,8 @@
   <depend>python-concurrent.futures</depend>
   <!-- <depend version_gte="0.4">backports_abc</depend> -->   <!-- NOT needed for tornado 4.2.1 -->
 
+  <conflict version_lte="0.7.17">rosbridge_server</conflict>  <!-- since rosbridge_server includes tornado -->
+
   <test_depend>python-mock</test_depend>
   
   <export>

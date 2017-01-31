@@ -26,7 +26,9 @@
   <!-- <depend version_gte="0.4">backports_abc</depend> -->   <!-- NOT needed for tornado 4.2.1 -->
 
   <test_depend>python-mock</test_depend>
-  
+
+  <conflict version_lte="0.7.17">rosbridge_server</conflict>  <!-- since rosbridge_server includes tornado -->
+
   <export>
     <rosdoc external_url="http://tornado.readthedocs.io/en/stable/" />
   </export>
