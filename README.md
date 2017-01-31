@@ -1,3 +1,26 @@
+## tornado (jade) - 4.2.1-1
+
+The packages in the `tornado` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade tornado` on `Tue, 31 Jan 2017 01:57:39 -0000`
+
+The `tornado` package was released.
+
+Version of package(s) in repository `tornado`:
+
+- upstream repository: https://github.com/tornadoweb/tornado.git
+- release repository: https://github.com/asmodehn/tornado-rosrelease.git
+- rosdistro version: `4.2.1-0`
+- old version: `4.2.1-0`
+- new version: `4.2.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## tornado (jade) - 4.2.1-0
 
 The packages in the `tornado` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade tornado` on `Fri, 18 Nov 2016 06:07:46 -0000`
