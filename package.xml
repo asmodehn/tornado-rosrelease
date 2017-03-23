@@ -17,7 +17,7 @@
   <maintainer email="asmodehn@gmail.com">AlexV</maintainer>
 
   <buildtool_depend version_gte="0.6.18">catkin</buildtool_depend>
-  <build_depend version_gte="0.1.15">catkin_pip</build_depend>
+  <build_depend version_gte="0.2.0">catkin_pip</build_depend>
 
   <depend>backports_ssl_match_hostname</depend>               <!-- ubuntu deb available only from xenial 16.04. same version from yakkety 16.10. -->
   <depend>python-singledispatch</depend>
